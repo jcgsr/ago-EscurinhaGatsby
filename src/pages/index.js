@@ -110,7 +110,7 @@ const IndexPage = () => (
       </main>
       <section className="fotos">
         <div className="links">
-          <Link to="/fisio">
+          <Link to="/fisioterapia">
             <StaticImage
               src="../assets/images/Escurinha-fisio.jpeg"
               alt="Clara Azevedo - Fisioterpia"

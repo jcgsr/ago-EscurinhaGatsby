@@ -3,11 +3,21 @@ import * as React from "react";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
+import { Link } from "gatsby";
+
 const NotFoundPage = () => (
   <Layout>
-    <Seo title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Seo title="404" description="Página de Erro" />
+    <main className="error-page">
+      <sectio>
+        <h1 style={{ margin: "4rem" }}>404: Página não encontrada</h1>
+        <button style={{ textAlign: "center" }}>
+          <Link style={{ color: "white", textAlign: "center" }} to="/">
+            Início
+          </Link>
+        </button>
+      </sectio>
+    </main>
   </Layout>
 );
 
