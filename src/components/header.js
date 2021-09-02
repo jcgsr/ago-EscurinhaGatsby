@@ -27,7 +27,7 @@ const Header = () => {
             <a href="https://www.instagram.com/pilatescomclara/">Instagram</a>
           </button>{" "}
           <button>
-            <Link to="/">Início</Link>
+            <Link to="/galeria">Fotos</Link>
           </button>{" "}
           <button>
             <Link to="/" id="menu-icon">
