@@ -7,6 +7,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Contatos from "../components/contatos";
+import Local from "../components/local";
 
 const IndexPage = () => (
   <Layout>
@@ -144,6 +145,7 @@ const IndexPage = () => (
         </div>
       </section>
       <Contatos />
+      <Local />
     </div>
   </Layout>
 );

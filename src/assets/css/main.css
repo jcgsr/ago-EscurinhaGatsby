@@ -84,6 +84,11 @@ ul li::before {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
   margin-bottom: 0.7rem;
 }
+#local {
+  margin: 2rem auto;
+  text-align: center;
+  padding-bottom: 5rem;
+}
 /* IDS */
 
 /* NAVBAR */
@@ -235,4 +240,27 @@ ul li::before {
   background-color: var(--secondary);
   color: var(--primary);
 }
+
+.maps {
+  display: flex;
+  justify-content: center;
+}
+.maps h3 {
+  background-color: var(--primary);
+  color: var(--terciary);
+  width: 70%;
+  margin: 1rem auto;
+  padding: 0.3rem;
+}
+.maps iframe {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .maps {
+    flex-direction: column;
+  }
+}
+
 /* CLASSES */

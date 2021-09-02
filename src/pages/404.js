@@ -10,11 +10,9 @@ const NotFoundPage = () => (
     <Seo title="404" description="Página de Erro" />
     <main className="error-page">
       <sectio>
-        <h1 style={{ margin: "4rem" }}>404: Página não encontrada</h1>
-        <button style={{ textAlign: "center" }}>
-          <Link style={{ color: "white", textAlign: "center" }} to="/">
-            Início
-          </Link>
+        <h1>404: Página não encontrada</h1>
+        <button>
+          <Link to="/">Início</Link>
         </button>
       </sectio>
     </main>
