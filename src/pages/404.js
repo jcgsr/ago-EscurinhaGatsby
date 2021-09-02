@@ -9,12 +9,12 @@ const NotFoundPage = () => (
   <Layout>
     <Seo title="404" description="Página de Erro" />
     <main className="error-page">
-      <sectio>
+      <section>
         <h1>404: Página não encontrada</h1>
         <button>
           <Link to="/">Início</Link>
         </button>
-      </sectio>
+      </section>
     </main>
   </Layout>
 );

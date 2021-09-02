@@ -5,7 +5,7 @@ import { FiMail, FiFacebook, FiInstagram } from "react-icons/fi";
 
 const Contatos = () => {
 	return (
-		<section className="contatos">
+		<section id="contatos">
 			<h1>Contatos</h1>
 			<div className="contato">
 				<a href="mailto:pilatescomclara@gmail.com" target="new">
