@@ -4,6 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
 import Footer from "./footer";
+import Whatsapp from "./whatsapp.js";
 import "../assets/css/main.css";
 
 const Layout = ({ children }) => {
@@ -21,6 +22,7 @@ const Layout = ({ children }) => {
     <>
       <Header />
       <main>{children}</main>
+      <Whatsapp />
       <Footer />
     </>
   );
