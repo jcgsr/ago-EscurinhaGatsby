@@ -16,9 +16,9 @@ const Header = () => {
             </span>
           </div>
           <div className="links" id={showLinks ? "hidden" : ""}>
-            <Link>
+            <Link to="/">
               {" "}
-              <button to="/">Início</button>
+              <button>Início</button>
             </Link>
             <Link to="/#contatos">
               {" "}
