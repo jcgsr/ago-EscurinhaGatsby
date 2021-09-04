@@ -1,44 +1,55 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
 
-import { BsThreeDotsVertical, BsX, BsList } from "react-icons/bs";
+import { BsThreeDotsVertical, BsX } from "react-icons/bs";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
-  const [click, setClick] = useState(false);
+  const [showLinks, setShowLinks] = useState(false);
   return (
     <>
-      <nav className="navbar">
-        <div className="nav-container">
-          <button>
-            <Link to="/">Início</Link>
-          </button>{" "}
-          <button>
-            <Link to="/#contatos">Contatos</Link>
-          </button>{" "}
-          <button>
-            <Link to="/#local">Localização</Link>
-          </button>{" "}
-          <button>
-            <a href="https://www.youtube.com/channel/UCqd6-sIiqEy615sfD974_9g">
-              Youtube
-            </a>
-          </button>{" "}
-          <button>
-            <a href="https://www.instagram.com/pilatescomclara/">Instagram</a>
-          </button>{" "}
-          <button>
-            <Link to="/galeria">Fotos</Link>
-          </button>{" "}
-          <button>
-            <Link to="/" id="menu-icon">
-              <BsList />
+      <nav>
+        <div className="navbar">
+          <div className="nav-icon">
+            <span onClick={() => setShowLinks(!showLinks)}>
+              {!showLinks ? <BsThreeDotsVertical /> : <BsX />}
+            </span>
+          </div>
+          <div className="links" id={showLinks ? "hidden" : ""}>
+            <Link>
+              {" "}
+              <button to="/">Início</button>
             </Link>
-          </button>
-        </div>
-        <div className="nav-icon">
-          <span onClick={() => setClick(!click)}>
-            {!click ? <BsThreeDotsVertical /> : <BsX />}
-          </span>
+            <Link to="/#contatos">
+              {" "}
+              <button>Contatos</button>
+            </Link>
+            <Link to="/#local">
+              <button>Localização</button>
+            </Link>
+            <a href="https://www.youtube.com/channel/UCqd6-sIiqEy615sfD974_9g">
+              <button>Youtube</button>
+            </a>
+            <a href="https://www.instagram.com/pilatescomclara/">
+              <button>Instagram</button>
+            </a>
+            <Link to="/galeria">
+              <button>Fotos</button>
+            </Link>
+            <Link>
+              {" "}
+              <div className="dropdown">
+                <button>
+                  <AiOutlineMenu />
+                </button>
+                <div className="dropdown-content">
+                  <Link to="/fisioterapia">Fisioterapia</Link>
+                  <Link to="/pilates">Pilates</Link>
+                  <Link to="/acupuntura">Acupuntura</Link>
+                </div>
+              </div>
+            </Link>
+          </div>
         </div>
       </nav>
     </>
