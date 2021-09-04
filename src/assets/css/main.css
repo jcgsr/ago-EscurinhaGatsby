@@ -25,6 +25,9 @@
 /* COLORS */
 
 /* TAGS */
+html {
+  scroll-behavior: smooth;
+}
 header {
   background-color: var(primary);
 }
