@@ -28,12 +28,6 @@ const Fisioterapia = () => (
           fundamental para o tratamento, início com uma avaliação precisa que me
           direciona para a estratégia de tratamento ideal para você.{" "}
         </p>
-        <p>
-          O modelo de Teleatendimento é regularizado, seguro e possível nesse
-          momento de pandemia, ofereço o atendimento virtual para os pacientes
-          que não podem realizar a consulta domiciliar ou na clínica por algum
-          motivo. Tem interesse em ter uma consulta? É só clicar no link abaixo!
-        </p>
         <p>Motivos para me procurar:</p>
         <ul className="motivos">
           <li>Sente dor ou desconforto no seu corpo;</li>
