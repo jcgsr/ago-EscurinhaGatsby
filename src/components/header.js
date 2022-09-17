@@ -24,11 +24,8 @@ const Header = () => {
               {" "}
               <button>Contatos</button>
             </Link>
-            <Link to="/#local">
-              <button>Localização</button>
-            </Link>
             <a href="https://www.youtube.com/channel/UCqd6-sIiqEy615sfD974_9g">
-              <button>Youtube</button>
+              <button>Espaço Nexo</button>
             </a>
             <a href="https://www.instagram.com/pilatescomclara/">
               <button>Instagram</button>

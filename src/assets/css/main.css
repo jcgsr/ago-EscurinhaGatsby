@@ -249,6 +249,18 @@ ul li::before {
 /* ========= */
 
 /* CLASSES */
+.motivos {
+  background-color: var(--primary);
+  color: var(--terciary);
+  padding-left: 1.4rem;
+  padding-top: 0.5rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+.motivos ul li {
+  list-style-type: circle;
+  color: green;
+}
 
 .card {
   width: 75%;

@@ -7,7 +7,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 import Contatos from "../components/contatos";
-import Local from "../components/local";
+//import Local from "../components/local";
 
 const IndexPage = () => (
   <Layout>
@@ -32,8 +32,16 @@ const IndexPage = () => (
         <section className="card">
           {" "}
           <p>
-            Sou Clara Azevedo e eu ajudo a transformar a vida das pessoas
-            através da fisioterapia: esta é a minha missão.
+            Me chamo Clara, sou pisciana e filha do meio, adoro ficar em casa
+            mas topo qualquer passeio ao ar livre! Gosto de ouvir música ( de
+            todo tipo) , sou bem humorada mas bem conservadora. Não gosto de
+            desorganização e sou um pouco apressadinha, quero tudo pra ontem
+            rsrs.{" "}
+          </p>
+          <p>
+            Minha missão é ser aquela pessoa que leva alegria e tranquilidade
+            onde chega. Na minha profissão procuro sempre oferecer acolhimento ,
+            escuta e compreensão.{" "}
           </p>
           <p>
             Para a maioria das pessoas a fisioterapia se resume a “choquinhos”,
@@ -54,18 +62,19 @@ const IndexPage = () => (
             atividades do dia-a-dia após passarem por algum problema de saúde.
           </p>
           <p>
-            É impressionante como as dores corporais podem estar relacionadas a
-            um estado emocional desequilibrado. Pessoas que sofrem com depressão
-            e ansiedade, por exemplo, podem sofrer com dores nas corpo. Daí
-            começam a tomar diversos remédios para essas dores, mas, no entanto,
-            não cuidam do que está causando tudo isso: a mente. Por isso decidi
-            estudar o ser humano por completo através das áreas da fisioterapia.
+            É impressionante como o nosso corpo pode demonstrar um estado
+            emocional desequilibrado. Pessoas que sofrem com depressão e
+            ansiedade, por exemplo, podem sofrer com dor em partes específicas
+            do corpo. Daí começam a tomar diversos remédios mas, no entanto, não
+            cuidam do que está causando tudo isso: as emoções. Por isso decidi
+            estudar o ser humano por completo de forma íntegral, através do
+            Método Pilates e da Técnica Milenar Chinesa Acupuntura.{" "}
           </p>
           <p>
             Desde a minha graduação, busquei aprender com os melhores
             profissionais para me tornar uma fisioterapeuta qualificada e
-            humanizada, pratica que continuo até hoje pois sei da importância do
-            estudo
+            humanizada, prática que continuo até hoje pois sei da importância do
+            estudo.
           </p>
           <p>
             COM A FISIOTERAPIA EU APRENDI que o corpo é a nossa casa, e é
@@ -80,7 +89,8 @@ const IndexPage = () => (
           <p>
             COM A ACUPUNTURA COMPREENDI o por que os chineses vivem mais, e como
             o estilo de vida e o conhecimento milenar oriental pode mudar de
-            forma positiva a sua saúde proporcionando a tão sonhada longevidade.
+            forma positiva a sua saúde, proporcionando longevidade e qualidade
+            de vida.{" "}
           </p>
           <p>
             Deixo abaixo um mini currículo com cursos e vivências que tive
@@ -104,6 +114,12 @@ const IndexPage = () => (
               </li>
               <li>
                 Participação em cursos e congressos regionais e internacionais
+              </li>
+              <li>Curso de Atualização em Pilates Online</li>
+              <li>Curso de Laserpuntura , direto ao ponto</li>
+              <li>
+                Curso de Emoções como causa de adoecimento na Medicina
+                Tradicional Chinesa
               </li>
             </ul>
           </p>
@@ -145,7 +161,6 @@ const IndexPage = () => (
         </div>
       </section>
       <Contatos />
-      <Local />
     </div>
   </Layout>
 );
